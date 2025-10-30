@@ -15,38 +15,17 @@ Analisar, padronizar e enriquecer a base de dados `Base_Membros_Desempenho.csv`,
 ## 📂 Estrutura do Projeto
 
 ```
-Desafio1_Dados/
+Desafio-Dados/
 │
 ├── Base_Membros_Desempenho.csv              # Base original (despadronizada)
 ├── Base_Membros_Desempenho_Tratada.xlsx     # Base tratada (Excel)
-├── Base_Membros_Desempenho_Tratada.csv      # Base tratada (CSV com vírgula decimal)
+├── Base_Membros_Desempenho_Tratada.csv      # Base tratada (CSV)
 ├── desafio1.py                              # Script Python de tratamento
-├── RESUMO_TRATAMENTO_DADOS.md               # Documento de entrega com passo a passo
+├── RESUMO_TRATAMENTO_DADOS.md               # Documentação detalhada
 └── README.md                                # Este arquivo
 ```
 
 ## 🚀 Como Executar
-
-### Pré-requisitos
-- Python 3.11 ou superior
-- Bibliotecas: pandas, openpyxl
-
-### Instalação
-
-1. Clone ou baixe este repositório
-
-2. Crie um ambiente virtual (opcional, mas recomendado):
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-3. Instale as dependências:
-```powershell
-pip install pandas openpyxl
-```
-
-### Execução
 
 Execute o script de tratamento:
 ```powershell
@@ -83,41 +62,27 @@ O script irá:
 - 'Padrão': demais casos
 
 ## 📈 Resultados
+Os arquivos tratados conterão:
+- **Valores nulos tratados:** Todos preenchidos com média ou moda
+- **Novas colunas criadas:** Score_Desempenho e Status_Membro
+- **Membros classificados:** "Em Destaque" ou "Padrão"
 
-- **Total de registros:** 253
-- **Valores nulos após tratamento:** 0
-- **Membros "Em Destaque":** 139 (54.9%)
-- **Membros "Padrão":** 114 (45.1%)
-
-### Estatísticas
-- Média Avaliação Técnica: 7.86
-- Média Avaliação Comportamental: 7.95
-- Média Engajamento: 81.56%
-- Média Score Desempenho: 7.91
-
-## 📝 Documentação
-
-Para entender o passo a passo detalhado de cada transformação realizada, consulte:
-- **[RESUMO_TRATAMENTO_DADOS.md](RESUMO_TRATAMENTO_DADOS.md)** - Documento completo com todas as etapas, validações e estatísticas
+### Estatísticas (exibidas ao executar o script)
+- Média Avaliação Técnica
+- Média Avaliação Comportamental  
+- Média Engajamento PIGs
+- Moda Nível Senioridade
 
 ## 🛠️ Tecnologias Utilizadas
-
-- **Python 3.11.9**
+- **Python 3.x**
 - **Pandas** - Manipulação e análise de dados
-- **NumPy** - Operações numéricas
 - **openpyxl** - Exportação para Excel
 
 ## 📋 Arquivos de Entrega
-
 1. ✅ `Base_Membros_Desempenho_Tratada.xlsx` - Base tratada (formato Excel)
 2. ✅ `Base_Membros_Desempenho_Tratada.csv` - Base tratada (formato CSV)
 3. ✅ `desafio1.py` - Script Python
 4. ✅ `RESUMO_TRATAMENTO_DADOS.md` - Documentação detalhada
 
-## 👤 Autor
-
-Desafio realizado para o time de Gente e Gestão
-
 ## 📅 Data
-
 30 de outubro de 2025
