@@ -21,7 +21,6 @@ Desafio-Dados/
 ├── Base_Membros_Desempenho_Tratada.xlsx     # Base tratada (Excel)
 ├── Base_Membros_Desempenho_Tratada.csv      # Base tratada (CSV)
 ├── desafio1.py                              # Script Python de tratamento
-├── RESUMO_TRATAMENTO_DADOS.md               # Documentação detalhada
 └── README.md                                # Este arquivo
 ```
 
@@ -82,7 +81,6 @@ Os arquivos tratados conterão:
 1. ✅ `Base_Membros_Desempenho_Tratada.xlsx` - Base tratada (formato Excel)
 2. ✅ `Base_Membros_Desempenho_Tratada.csv` - Base tratada (formato CSV)
 3. ✅ `desafio1.py` - Script Python
-4. ✅ `RESUMO_TRATAMENTO_DADOS.md` - Documentação detalhada
 
 ## 📅 Data
 30 de outubro de 2025
