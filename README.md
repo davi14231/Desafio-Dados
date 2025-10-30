@@ -1,11 +1,9 @@
 # Desafio 1 - Tratamento de Dados de Membros e Desempenho
 
 ## 📌 Sobre o Projeto
-
 Este projeto faz parte do **Desafio 1** do time de Gente e Gestão, onde realizei o tratamento e padronização de uma base de dados sobre performance dos membros da organização.
 
 ## 🎯 Objetivo
-
 Analisar, padronizar e enriquecer a base de dados `Base_Membros_Desempenho.csv`, realizando:
 - Padronização de dados categóricos e numéricos
 - Tratamento de valores nulos
@@ -13,7 +11,6 @@ Analisar, padronizar e enriquecer a base de dados `Base_Membros_Desempenho.csv`,
 - Classificação de status dos membros
 
 ## 📂 Estrutura do Projeto
-
 ```
 Desafio-Dados/
 │
@@ -25,7 +22,6 @@ Desafio-Dados/
 ```
 
 ## 🚀 Como Executar
-
 Execute o script de tratamento:
 ```powershell
 python desafio1.py
